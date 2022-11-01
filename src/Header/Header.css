@@ -1,0 +1,27 @@
+.navigation{
+    font-size: 18px;
+    font-family: "Font Name", serif;
+    transition: color .2s linear;
+}
+
+.img{
+    filter: invert(1);
+}
+
+.text-size{
+    font-size: 28px;
+    font-family: "Font Name", serif;
+    color: black;
+}
+
+.cont{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1320px;
+}
+
+@font-face {
+    font-family: 'Font Name';
+    src: local('Font Name'), local('Font-Name'),
+    url("/src/Fonts/Formula1-Regular.otf");
+}
